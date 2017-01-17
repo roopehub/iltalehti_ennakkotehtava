@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<meta name="author" content="Roope Heinonen">
+    
+<!-- Linking css & fonts -->
+<link rel="stylesheet" type="text/css" href="styles/main.css"/>
+<link rel="stylesheet" type="text/css" href="styles/scaling.css"/>
+<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+<title>ILmainos</title>
+</head>
+
+<!--suorita funktiot kun body lataa -->
+<body onload="onBodyLoad()">
+    
+<div class="mainwrapper" id="mainwrapper">
+    
+<!-- vasen yläkulma logo -->
+<img src="img/logo_ilplus.jpg" id="logo">
+    
+<!-- "plussa puhuttaa" -->
+
+<div class="plussapuhuttaa">
+    <h1 id="otsikkoteksti">PLUSSA PUHUTTAA.</h1>
+</div>
+
+
+<!-- tapahtuman teksti -->
+<div id="tulostaMainos"></div>
+   
+<!-- tilaa il plus painike -->
+<a href ="" id="tilaalinkki">
+<div class="tilaadiv" id="tilaadiv">
+    <p id="tilaateksti">Tilaa Plussa</p>
+</div>
+</a>
+ 
+<!--close mainwrapper -->    
+</div>
+
+<!--importataan scriptit -->
+<script src="js/mainos.js"></script>
+<script src="js/jquery-1.12.3.min.js"></script>
+
+</body>
+</html>
